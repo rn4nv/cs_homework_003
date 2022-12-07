@@ -3,7 +3,7 @@
 Console.Write("Для проверки числа на палиндром, введите его: ");
 string a = Console.ReadLine();
 int resultA = int.Parse(a);
-int digitA = int.Parse(a);
+int digitA = resultA;
 int rev = 0;
 
 while (resultA > 0)
